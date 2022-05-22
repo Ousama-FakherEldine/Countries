@@ -11,5 +11,12 @@
         "age":16,
         "uni":"SNC",
         "training":"nothing"
+    },
+
+    {
+        "name":"Abdallah",
+        "age":22,
+        "uni":"NDU",
+        "training":"COD"  
     }
 ]
