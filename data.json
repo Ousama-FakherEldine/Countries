@@ -1,0 +1,15 @@
+[
+    {
+        "name":"Ousama",
+        "age":21,
+        "uni":"NDU",
+        "training":"Full Stack"
+    },
+
+    {
+        "name":"Dayana",
+        "age":16,
+        "uni":"SNC",
+        "training":"nothing"
+    }
+]
