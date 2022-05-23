@@ -10,6 +10,8 @@ fetch("https://restcountries.com/v3.1/all")
     })
 
     function update(){
+        document.getElementById("flags").innerHTML='';
+        document.getElementById("test").innerHTML='';
        var index = document.getElementById("ousama2").selectedIndex;
     
 fetch("https://restcountries.com/v3.1/all")
@@ -20,7 +22,7 @@ fetch("https://restcountries.com/v3.1/all")
         flags.appendChild(new3);
         
         let new4=document.createElement("div");
-        new4.innerHTML=data[index].capital;
+        new4.innerHTML="Capital:"+data[index].capital;
         test.appendChild(new4);
     })
 }
